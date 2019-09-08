@@ -41,7 +41,7 @@ function start() {
 	function recalculate() {
 		var dataSize = (+inpNum.value) * (+inpSize.value);
     	if (doesMyDataFitInRam(dataSize)) {
-			answer.innerHTML = "<a href=\"https://www.dell.com/th/business/p/poweredge-r930/pd\">YES</a>, <a href=\"https://www.supermicro.com/en/products/system/7U/7089/SYS-7089P-TR4T.cfm\">your</a> data fits in RAM.";
+			answer.innerHTML = "<a href=\"https://www.dell.com/th/business/p/poweredge-r930/pd\">YES</a>, <a href=\"https://www.supermicro.com/en/products/system/7U/7089/SYS-7089P-TR4T.cfm\">your</a> <a href=\"https://aws.amazon.com/ec2/instance-types/high-memory/\">data</a> fits in RAM.";
 			body.classList.add('answer-yes');
 			body.classList.remove('answer-no');
 		} else {
